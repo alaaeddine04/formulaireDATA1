@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nationalite</title>
+  </head>
+  <body>
+    <h1>Nationalite</h1>
+    <form action="enrg.php" method="post">
+      <label for="code">Code:</label>
+      <input type="text" id="code" name="code" />
+      <br /><br />
+      <label for="nationalite">Nationalite:</label>
+      <input type="text" id="nationalite" name="nationalite" />
+      <br /><br />
+      <input type="submit" value="Enregistrer" name="enregistrer" />
+      <input
+        type="submit"
+        value="Affichage Liste"
+        name="afficherListeButton"
+        formaction="afficher_liste.php"
+      />
+    </form>
+  </body>
+</html>
